@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="algs4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/stdlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/jh61b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/stdlib-package.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../CS 61B/cs61b_sp18/library-sp18/javalib/stdlib.jar!/" />
+    </SOURCES>
+  </library>
+</component>
