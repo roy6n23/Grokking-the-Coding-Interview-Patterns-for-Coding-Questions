@@ -18,6 +18,8 @@ class IntervalsIntersection {
     while (i < arr1.length && j < arr2.length) {
       // check if the interval arr[i] intersects with arr2[j]
       // check if one of the interval's start time lies within the other interval
+      //如果a的开端是在b之后的，那么一定要限制a不能跑到b的后面去，因此这是第一个条件
+      //如果a的开端是在b之前，那么a的末尾不能比在b之前，因此这是第二个条件
       if ((arr1[i].start >= arr2[j].start && arr1[i].start <= arr2[j].end)
           || (arr2[j].start >= arr1[i].start && arr2[j].start <= arr1[i].end)) {
         // store the intersection part
