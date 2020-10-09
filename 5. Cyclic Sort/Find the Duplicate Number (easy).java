@@ -2,15 +2,16 @@ class FindDuplicate {
 
   public static int findNumber(int[] nums) {
     int i = 0;
-    while (i < nums.length) {
-      if (nums[i] != i + 1) {
-        if (nums[i] != nums[nums[i] - 1])
-          swap(nums, i, nums[i] - 1);
-        else // we have found the duplicate
-          return nums[i];
-      } else {
-        i++;
-      }
+    while( i < nums.length){
+    	if(nums[i] != i + 1){
+    		if(nums[i] != nums[nums[i] - 1]){
+    			swap(nums, i, nums[i] - 1);
+    		} else{ // we have found the duplicate
+    			return nums[i];
+    		}
+    	} else{
+    		i++;
+    	}
     }
 
     return -1;
